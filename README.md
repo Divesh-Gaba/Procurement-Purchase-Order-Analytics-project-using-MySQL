@@ -39,7 +39,7 @@ The database is named `procurement_analytics` and contains five interconnected t
 
 The database uses primary keys and foreign keys to maintain referential integrity.
 
-![Procurement Analytics Entity Relationship Diagram](er_diagram.png)
+![Procurement Analytics Entity Relationship Diagram](er_diagram.png).
 
 *The diagram above illustrates the database structure and relationships between the five tables.*
 
