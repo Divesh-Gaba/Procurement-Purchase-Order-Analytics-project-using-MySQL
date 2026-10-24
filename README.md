@@ -57,13 +57,7 @@ The database uses primary keys and foreign keys to maintain referential integrit
 - One-to-many relationships
 - `INNER JOIN` and `LEFT JOIN`
 - Aggregate functions: `SUM()`, `COUNT()`, and `AVG()`
-- Conditional logic using `CASE WHEN`
-- Common Table Expressions (CTEs)
-- Window functions, including `DENSE_RANK()` and `SUM() OVER()`
 - Date functions and overdue calculations
-- Conditional aggregation
-- Data quality and process control checks
-- Pre-aggregation to prevent duplicate totals when joining multiple one-to-many relationships
 
 ## 🔍 Business Questions & Analysis
 
