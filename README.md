@@ -108,73 +108,17 @@ procurement-purchase-order-analytics/
 │
 ├── README.md
 ├── 01_create_tables.sql
-├── 02_insert_sample_data.sql
-├── 03_data_quality_checks.sql
-├── 04_procurement_analysis.sql
 └── er_diagram.png
 ```
 
 **File descriptions:**
 
 - `01_create_tables.sql` — Creates the database tables, primary keys, foreign keys, and constraints.
-- `02_insert_sample_data.sql` — Inserts synthetic sample records into the tables.
-- `03_data_quality_checks.sql` — Contains queries for checking data consistency and potential process exceptions.
-- `04_procurement_analysis.sql` — Contains the main business analysis queries.
+- Inserts synthetic sample records into the tables.
+- Contains queries for checking data consistency and potential process exceptions.
+- Contains the main business analysis queries.
 - `er_diagram.png` — Visual representation of the database schema and relationships.
 
-*If your actual filenames differ, update this section to match your repository.*
-
-## ⚙️ How to Run the Project
-
-### Prerequisites
-
-- MySQL Server 8.0 or a compatible version supporting the SQL features used in this project.
-- MySQL Workbench or another MySQL client.
-
-### Step 1: Clone the repository
-
-```bash
-git clone https://github.com/YOUR-USERNAME/procurement-purchase-order-analytics.git
-```
-
-Replace `YOUR-USERNAME` with your GitHub username.
-
-### Step 2: Open the project
-
-Open MySQL Workbench and connect to your MySQL Server instance.
-
-### Step 3: Create the database and tables
-
-Run the script:
-
-```text
-01_create_tables.sql
-```
-
-This creates the `procurement_analytics` database and its five tables.
-
-### Step 4: Insert sample data
-
-Run:
-
-```text
-02_insert_sample_data.sql
-```
-
-This populates the database with synthetic supplier, department, purchase order, goods receipt, and invoice records.
-
-### Step 5: Run the analysis queries
-
-Execute the queries in:
-
-```text
-03_data_quality_checks.sql
-04_procurement_analysis.sql
-```
-
-Review the query outputs to explore the business questions and analytical findings.
-
-**Note:** Run the scripts in the order shown. The table creation and data insertion scripts should be executed before the analysis scripts.
 
 ## 📈 Key Learning Outcomes
 
@@ -213,4 +157,4 @@ This is an independent learning project built using synthetic sample data. It is
 
 **Skills:** MySQL · SQL · Data Analytics · Relational Database Design · Business Analysis · Data Quality Checks
 
-**Author:** YOUR NAME
+**Author:** Divesh Gaba.
